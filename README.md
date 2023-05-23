@@ -11,19 +11,19 @@ Coil Chucker is an open-source library designed to work as an interceptor for Co
 Chucker is distributed through Jitpack.
 
 ```bash
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 ```bash
-	dependencies {
+dependencies {
         debugImplementation 'com.github.AbuBallan.coil-chucker:library:0.0.1'
         releaseImplementation 'com.github.AbuBallan:coil-chucker:library-no-op:0.0.1'
-	}
+}
 ```
 
 To start using Coil Chucker, just plug in a new CoilChuckerInterceptor
