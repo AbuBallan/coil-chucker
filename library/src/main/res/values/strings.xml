@@ -1,0 +1,8 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="transactions_tab">Transactions</string>
+    <string name="memory_cache_tab">Memory Cache</string>
+    <string name="disk_cache_tab">Disk Cache</string>
+    <string name="coil_chucker_notification_category">Coil requests</string>
+    <string name="coil_chucker_http_notification_title">Recording Coil HTTP activity</string>
+</resources>
